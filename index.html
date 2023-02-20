@@ -5,34 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <a href="#"> WebStudio</a>
-      <nav>
-        <ul>
-          <li><a href="#"> Estudio </a></li>
-          <li><a href="portfolio.html"> Portafolio </a></li>
-          <li><a href="#"> Contactos </a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <a href="./index.html" class="header-logo-link">WebStudio</a>
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a href="./index.html" class="header-link-link"> Estudio </a>
+          </li>
+
+          <li class="header-menu-item">
+            <a href="./portfolio.html" class="link-item">Portafolio</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="" class="header-menu"> Contactos </a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
-        <li><a href="tel:+525555296000"> +52 55 5529 6000 </a></li>
+      <ul class="header-list">
+        <li class="header-email">
+          <a class="header-email-decoration" href="mailto:info@devstudio.com">
+            info@devstudio.com
+          </a>
+        </li>
+        <li class="header-contacts">
+          <a class="header-phone" href="tel:+525555296000">
+            +52 55 5529 6000
+          </a>
+        </li>
       </ul>
     </header>
-    <main>
-      <section>
-        <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+    <main class="section">
+      <section class="main-section">
+        <h1 class="main-section-solutions">
+          SOLUCIONES EFICACES PARA SU NEGOCIO
+        </h1>
 
-        <button type="button">Solicite nuestro servicio</button>
+        <button class="main-section-button" type="button">
+          Solicite nuestro servicio
+        </button>
       </section>
 
-      <section>
-        <ul>
-          <li>
-            <h4>ATENCIÓN A LOS DETALLES</h4>
-            <p>
+      <section class="section-activity">
+        <ul class="section-activity-list">
+          <li class="section-activity-item">
+            <h4 class="section-activity-title">ATENCIÓN A LOS DETALLES</h4>
+            <p class="section-text">
               Nos adentramos en todos los detalles y procesos de su negocio,
               para así desarrollar una solución a su medida.
             </p>
