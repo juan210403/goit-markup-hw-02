@@ -1,6 +1,9 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -294,4 +297,18 @@ ul {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-web:hover {
+  color: #ffffff;
+}
+.footer-information:hover {
+  color: #2196f3;
+}
+.footer-contact:hover {
+  color: #2196f3;
+}
+
+.footer-email:hover {
+  color: #2196f3;
 }
