@@ -123,7 +123,6 @@ html {
   color: #757575;
 }
 .main-section {
-  width: 1600px;
   height: 600px;
   left: -4px;
   top: 80px;
@@ -231,10 +230,11 @@ html {
   cursor: pointer;
 }
 .footer-navigation {
-  width: 1600px;
   height: 252px;
   left: 0px;
   top: 2158px;
+
+  background: #2f303a;
 
   background: #2f303a;
 }
@@ -317,4 +317,8 @@ html {
 
 .footer-email:hover {
   color: #2196f3;
+}
+
+.section-background {
+  background: #f5f4fa;
 }
