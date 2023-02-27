@@ -1,22 +1,77 @@
 * {
   font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 html {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.box {
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  padding: 1200px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1600px;
+  height: 80px;
+}
+.container-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: -4px;
+  top: 80px;
+
+  background: #2f303a;
+}
+
+h1 .container-section {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 448px;
+  top: 280px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 .header {
+  position: absolute;
   width: 1600px;
   height: 80px;
   left: 0px;
@@ -29,6 +84,7 @@ html {
   position: absolute;
   width: 145px;
   height: 31px;
+
   left: 215px;
   top: 24px;
 
@@ -64,6 +120,7 @@ html {
 }
 .link-item {
   position: absolute;
+
   width: 65px;
   height: 16px;
   left: 552px;
@@ -122,6 +179,7 @@ html {
 
   color: #757575;
 }
+/*
 .main-section {
   height: 600px;
   left: -4px;
@@ -129,7 +187,7 @@ html {
 
   background: #2f303a;
 }
-
+*/
 .main-section-solutions {
   position: absolute;
   width: 696px;
@@ -142,7 +200,6 @@ html {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  /* or 136% */
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -153,17 +210,19 @@ html {
 
 .main-section-button {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+
   padding: 10px 32px;
   gap: 10px;
 
   position: absolute;
+
   width: 261px;
   height: 50px;
-  left: 666px;
-  top: 430px;
+  left: 670px;
+  top: 350px;
 
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -502,6 +561,11 @@ html {
 }
 .section-background-title {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
   width: 263px;
   height: 42px;
   left: 669px;
@@ -539,7 +603,6 @@ html {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 3%;
@@ -558,7 +621,6 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 3%;
@@ -588,7 +650,6 @@ html {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 3%;
@@ -607,7 +668,6 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -638,7 +698,6 @@ html {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -657,7 +716,6 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -687,7 +745,6 @@ html {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -707,18 +764,9 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
 
   color: #757575;
-}
-.section-background {
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1510px;
-
-  background: #f5f4fa;
 }
